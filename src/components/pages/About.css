@@ -1,0 +1,91 @@
+/* AboutPage.css */
+@font-face {
+    font-family: "Futura";
+    src: url("/src/assets/FUTURA/Futura_Bold_Italic_font.ttf") format("truetype");
+  }
+
+/* Layout for the About page, with two columns */
+.about-page-layout {
+    background: linear-gradient(to right, #020728, #0a0e3a);
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    color: white;
+}
+
+/* Container for the image on the left */
+.about-page-image-container {
+    flex: 1;
+    background: url('/src/assets/img/Logos_Intelectronica_.png') center center/cover;
+    height: 250%; /* Adjust as needed */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Container for the text on the right */
+.about-page-text-container {
+    flex: 1;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    text-align: justify;
+    background: linear-gradient(to right, #020728, #0a0e3a);
+    border-radius: 15px;
+    border: 1px solid #00c0f0; /* White border added here */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin-left: 20px; /* Space between the containers */
+    font-family: Futura;
+    color: white;
+}
+
+/* Styling for the page title */
+.about-page-title {
+    font-family: Arial, sans-serif;
+    color: #35424a; /* Dark shade for elegance */
+    font-size: 2em; /* Larger size for emphasis */
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Styling for the description text */
+.about-page-description {
+    font-family: 'Open Sans', sans-serif;
+    color: #666; /* Soft text color for readability */
+    line-height: 1.6;
+    max-width: 800px; /* Optimal line length for reading */
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* Apply subtle shadow to emphasize the text area */
+.about-page-text-area {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin: 20px;
+}
+
+/* Styling for responsive images or media within the text area */
+.about-page-media {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Apply hover effect for any buttons or interactive elements */
+.about-page-button {
+    background-color: #0a0e3a; /* Deep blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-page-button:hover {
+    background-color: #08215c; /* Darker shade on hover */
+}

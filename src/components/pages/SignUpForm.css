@@ -1,0 +1,91 @@
+/* SignUpForm.css */
+
+/* Use Futura font for the sign-up form if it's available */
+/* Background for the hero section */
+.hero-background {
+    background: url('/src/assets/img/HORTI.jpg') center center/cover no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Use Futura font for the sign-up form if it's available */
+  .sign-up-form {
+    font-family: Futura, Arial, sans-serif;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Center in the available space */
+    margin-top: 100px;
+  }
+  
+  /* Center the form in the middle of the page */
+  .full-screen-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background for the whole screen */
+  }
+  
+  /* Styling for the sign-up form container */
+  .sign-up-form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Center in the available space */
+    margin-top: 100px;
+  }
+  
+  /* Form heading */
+  .sign-up-form h1 {
+    text-align: center;
+    color: #0a0e3a; /* Deep blue color for elegance */
+    margin-bottom: 30px;
+    font-size: 28px; /* Slightly larger for emphasis */
+  }
+  
+  /* Form input fields */
+  .sign-up-form input[type="text"],
+  .sign-up-form input[type="email"],
+  .sign-up-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Focus state for input fields to enhance the user experience */
+  .sign-up-form input[type="text"]:focus,
+  .sign-up-form input[type="email"]:focus,
+  .sign-up-form input[type="password"]:focus {
+    outline: none;
+    border-color: #0a0e3a;
+  }
+  
+  /* Submit button with elegant styling */
+  .sign-up-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a0e3a; /* Deep blue color */
+    color: white;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for readability */
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for the submit button to provide feedback */
+  .sign-up-form button:hover {
+    background-color: #08215c; /* Slightly darker shade of blue */
+  }
+  

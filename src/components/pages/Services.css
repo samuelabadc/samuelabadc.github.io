@@ -1,0 +1,99 @@
+/* Services.css */
+
+@font-face {
+    font-family: "Futura";
+    src: url("/src/assets/FUTURA/Futura_Bold_Italic_font.ttf") format("truetype");
+}
+
+/* Rest of your CSS */
+
+/* Apply Futura font to titles, descriptions, etc. */
+.services-page-title, .service-card-title, .service-card-description {
+    font-family: Futura, Arial, sans-serif;
+}
+
+/* General Layout for the Services page */
+.services-page-layout {
+    background: linear-gradient(to right, #020728, #0a0e3a);
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Styling for the page title */
+.services-page-title {
+    font-family: Futura, Arial, sans-serif;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Cards container styling */
+.services-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual card styling */
+.service-card {
+    background: linear-gradient(to right, #020728, #0a0e3a);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #00c0f0;
+    padding: 20px;
+    width: 300px; /* Adjust as needed */
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+/* Styling for card titles */
+.service-card-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling for card descriptions */
+.service-card-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 280px;
+}
+
+/* Styling for images in cards */
+.service-card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Apply hover effect for any buttons or interactive elements within the card */
+.service-card-button {
+    background-color: #0a0e3a; /* Deep blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.service-card-button:hover {
+    background-color: #08215c; /* Darker shade on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .services-cards-container {
+        flex-direction: column;
+    }
+}
